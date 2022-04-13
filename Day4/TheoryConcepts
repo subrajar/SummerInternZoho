@@ -1,0 +1,14 @@
+why C is platform dependent?
+	-.c file is not platform dependent. We can copy the c code and run it anywhere
+	-whereas the executable file produced by compiling the c file will be in .exe extension or it depends on OS
+	-so executable file  is platform dependent.
+
+Why Java is platform independent?
+	-java compiler generates class file that contains byte codes
+	-JVM takes those bytecode as inputs and generates machine code for particular OS
+	-JVM is not platform independent we have to download specific JVM which will run on our OS
+
+
+Difference: Compiler and Interpreter
+	-Compiler scans the whole program and converts into machine code
+	-whereas interpreter translates 1 line at a time
