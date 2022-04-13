@@ -16,3 +16,4 @@ Difference: Compiler and Interpreter
 Why python doesn't support multithreading?
 	-Threading is possible python the problem is GIL will allow 1 thread at a time
 	-it's supports switching between threads
+	-GIL is necessary because interpreter is not thread safe
