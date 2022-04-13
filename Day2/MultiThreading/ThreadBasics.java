@@ -7,7 +7,7 @@ class Hi extends Thread {
 			try {
 				Thread.sleep(1000);
 			} catch (InterruptedException e) {
-				e.printStackTrace();
+				
 			}
 		}
 	}
@@ -20,7 +20,7 @@ class Hello extends Thread {
 			try {
 				Thread.sleep(1000);
 			} catch (InterruptedException e) {
-				e.printStackTrace();
+				
 			}
 		}
 	}
@@ -36,7 +36,7 @@ public class ThreadBasics {
 		try {
 			Thread.sleep(10);
 		} catch (InterruptedException e) {
-			e.printStackTrace();
+			
 		}
 		obj2.start();
 
