@@ -1,0 +1,19 @@
+EncFS:
+	-It provides encrypted file system in userspace
+	-What is user space?
+		-Dual mode operation in OS
+			=>user mode
+			=>kernel mode
+			-What is kernel?
+				-kernel is the heart of OS which means it has full access of memory and hard ware
+				-So we keep the machine stable we have to run only most trusted code(privileged code)
+				-eg for privileged instruction: context switching, set timer for interrupts
+		-for example if user is running an application the system is in user mode
+		-when it needs to access a file it switches to kernel mode
+		-it is achieved by system call
+		-after executing the system call the system go backs to the user mode
+		-what is system call?
+			-It allows the user to request the kernel
+	-It uses FUSE libraries(File system in USErspace) and linux kernel libraries to provide filesystem interface
+
+			
