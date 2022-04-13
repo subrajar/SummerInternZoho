@@ -2,6 +2,7 @@ why C is platform dependent?
 	-.c file is not platform dependent. We can copy the c code and run it anywhere
 	-whereas the executable file produced by compiling the c file will be in .exe extension or it depends on OS
 	-so executable file  is platform dependent.
+	-After compiling c file it produces object file that will be further linked(combined) to form .exe file
 
 Why Java is platform independent?
 	-java compiler generates class file that contains byte codes
