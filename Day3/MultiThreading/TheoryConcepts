@@ -1,0 +1,29 @@
+Thread pool:
+	-Java provides Executor interface to acheive thread pool
+		-SubInterface: ExecutorService
+		-class that implements executor: ThreadPoolExecutor
+	-it uses bloking queue which is thread safe to store the runnable objects(tasks)
+	-pool size: It is depends on type of operations
+		-for CPU intensive operations => CPU core size 
+		-for IO Intensive operations eg:get req from http client =>size of the pool will be larger
+	-ExecutorService service=Executors.newFixedThreadPool(poolsize);
+
+
+
+JVM:
+	-when we compile .java file, compiler will generate .class file
+	-JVM takes tha class file or byte code as input
+	-and java interpreter which implements JVM will produce machine code which is understandable by any os
+	-that is why java is platform independent
+
+
+RAM:
+	-It holds only the datas and instructions in which the computer is currently working
+	-It lost when power is switched off(Volatile)
+	-Primary memory of computer
+
+
+synchronized:
+	-while using pooled or reusable object, it will result in dead lock.
+	-it is not reccommended to use pooled or reusable object for synchronization
+
