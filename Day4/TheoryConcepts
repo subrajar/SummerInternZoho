@@ -12,3 +12,6 @@ Why Java is platform independent?
 Difference: Compiler and Interpreter
 	-Compiler scans the whole program and converts into machine code
 	-whereas interpreter translates 1 line at a time
+
+Why python doesn't support multithreading?
+	-Threading is possible python the problem is GIL will allow 1 thread at a time
