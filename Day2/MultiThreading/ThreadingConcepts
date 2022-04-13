@@ -1,0 +1,32 @@
+Difference : multithreading and multiprocessing
+	-Both helps to execute a process in short period of time.
+	-If the execution takes more memory or more processing power,we can go for multiprocessing
+	-Because each process has dedicated CPU and memory
+
+
+Difference : Abstract class and Interface
+	-Abstract class contains both abstract method and non abstract methods 
+	-whereas Interface contains only abstract methods
+	-Multiple Inheritence can only acheived by interface
+
+
+wait() and notify():
+	-when wait method is called by a thread, it stops execution until other thread calls notify()
+	-wait and notify belongs to OBJECT class
+	
+
+Thread synchronization:
+	-Synchronization helps to run a thread 1 at a time
+	-for example: if a thread is writing a data and other thread is reading the same data at same time,
+	it may cause inconsistency.
+	-To access shared resourse by more thread we can go for synchronization.
+
+Thread methods:
+	-join(): current thread stops execution until the other thread compleates execution
+	-sleep(millisec): sleeps the thread for specific milliseconds
+	-suspend(): the thread will suspend until resume method get invoked
+	-stop()
+	-isAlive()
+	-start()
+	-run()
+	-interuppt()
