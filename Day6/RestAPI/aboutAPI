@@ -1,0 +1,27 @@
+REST API:
+	-REST: the pattern for communicating client and server over the network
+	-It is an application that allows data application between client and server
+	-types:
+		=>private APIs
+		=>patner APIs
+		=>public APIs
+	-HTTP request:
+		-REST API is listen for HTTP methods like 
+		   =>get(retrieve existing resource)
+		   =>post(create a new resource)
+		   =>put(update)
+		   =>delete,etc
+	-HTTP response:
+		-The API receives and proces an http request and it will return a response with http status code
+		  -200(successful action)
+		  -201(new resource have been created successfully)
+		  -202(request received but not compleated yet)
+		  -204(no content in the request)
+		  -300(request has more than one response)
+		  -400(bad request)
+      -401(un authorized user)
+		  -404(request not found)
+		  -500(internal server error)
+	-API endpoints:
+		-It is URL for a resource where the service can accesed by client
+		-eg:/customer/<id> (/customer/5 -> details of id 5th customer)
