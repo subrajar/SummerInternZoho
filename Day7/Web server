@@ -1,0 +1,5 @@
+Web Server:
+	-It is a software that uses http and other protocols to respond client's request
+	-The job of web server is storing processing and delivering web pages to the user
+	-when we need a file that is hosted on the web server, browser will request the file through http
+	-when the request is received by the web server, find the content and send it back to the browser through http.
