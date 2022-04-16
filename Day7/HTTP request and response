@@ -1,0 +1,23 @@
+How a HTTP request look like?
+	-start line => contains http methods,request target(URL) and http version
+		eg: GET /home HTTP/1.1
+	-http headers =>it is like key value pairs contains information about the resource to be fetched
+		-request header
+		-general header
+		-representation header
+		eg: Host: localhost:8000
+	-body => not all HTTP request have body. POST method may have html body
+
+
+
+how HTTP response look like?
+	-start line(status line) => It contains protocol version and status code.
+		eg: HTTP/1.1 200 OK
+	-header => it follows same structure like request
+		-response header
+		-general header
+		-representation header
+	-body => Not all response having body (201 created & 204 no contents), divided into 3 categories
+		-single resource bodies, consisting of a single file of known length
+		-single resource bodies, consisting of a single file of unknown length
+		-multi resource bodies
