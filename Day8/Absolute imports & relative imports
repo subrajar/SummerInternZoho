@@ -8,8 +8,8 @@ How imports works?
 
 Absolute import:
 	-It imports a resource using full path from project root folder
- eg:
- project
+   eg:
+ 	project
 		-package1
 			-module1.py
 			-module2.py
