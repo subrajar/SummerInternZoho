@@ -1,0 +1,5 @@
+Dependencies:
+  -The software components requried by the project 
+  -if we decribed it in setup.py file, that can be downloaded and implemented by the project
+  -No need to download it manually
+  -setup.py contains all the requirements of the project
