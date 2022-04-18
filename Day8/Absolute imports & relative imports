@@ -1,0 +1,36 @@
+How imports works?
+	-eg: import abc
+	-python will look up the name abc in sys.modules(It is cache of modules previously imported)
+	-if the name is not found, it will look up for built in modules present in python
+	-the name is still not found, then it is searches for list of directories in sys.path(it contains list of folders)
+	-import abc => package or module
+	-from abc import xyz => objects
+
+Absolute import:
+	-It imports a resource using full path from project root folder
+ eg:
+ project
+		-package1
+			-module1.py
+			-module2.py
+				  -function1
+		-package2
+			-__init__.py
+				  -class1
+			-module3.py
+				  -class2
+			-subpackage
+				  -module4.py
+					   -function2
+	
+	from package1.module2 import function1
+	from package2.subpackage.module4 import funtion2
+
+
+Relative import:
+	-It specifies the resource to be imported relative to current file(where import statement is)
+	from previous eg:
+		in module1.py => from .module2 import funtion1
+		in module4.py => from ..module3 import class2
+
+
