@@ -1,0 +1,9 @@
+black:
+  -It will format the file (black main.py)
+  
+isort:
+  -It will arrange the imports alphabettically and seperate it into sections
+  -isort main.py
+  
+click:
+  -
